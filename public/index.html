@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <style>
+      #layout-preloading {width: 100vw;height: 100vh;position: fixed;left: 0;top: 0;background: #ececec;}
+      #layout-preloading img {width: 100px;height: 100px;position: absolute;left: calc(50% - 60px);top: calc(50% - 60px);z-index: 10;}
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but mini.mag doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="layout-preloading"><img src="<%= BASE_URL %>images/spinner.gif" alt=""></div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
